@@ -4,7 +4,7 @@ import express from "express";
 import compression from "compression";
 import cors from "cors";
 import bodyParser from "body-parser";
-import { serverPort, mongoUri } from "./config.js";
+import { serverPort, mongoUri } from "../config/app.js";
 import { TodoRoutes } from "./routes/TodoRoutes.js";
 // import mongoose, { mongo } from "mongoose";
 // import { UserRoutes } from "./routes/user.routes";

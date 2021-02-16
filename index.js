@@ -1,5 +1,5 @@
 // import server class module
-import Server from "./server.js";
+import Server from "./src/server.js";
 
 // instantiate new server object
 const server = new Server();
@@ -8,9 +8,10 @@ const server = new Server();
 server.start();
 
 // console.log(server.app)
+
 // we have access to app instance
-server.app.get("/", (req, res) => {
-  res.json({
-    message: [{ hello: "from" }, { the: "json" }, { awesome: "api" }],
-  });
-});
+// server.app.get("/", (req, res) => {
+//   res.json({
+//     message: [{ hello: "from" }, { the: "json" }, { awesome: "api" }],
+//   });
+// });
