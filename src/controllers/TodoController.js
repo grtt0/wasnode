@@ -1,5 +1,5 @@
-// import { Request, Response } from 'express';
-// import { Todo, ITodo } from '../models/Todo';
+// import { Request, Response } from "express";
+// import { Todo, ITodo } from "../models/Todo";
 
 export class TodoController {
     async getTodos(req, res){

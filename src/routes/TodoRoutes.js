@@ -1,9 +1,9 @@
-// import express, { Request, Response } from 'express';
-import { Router } from 'express';
-// import { runInThisContext } from 'vm';
+// import express, { Request, Response } from "expres";
+import { Router } from "express";
+// import { runInThisContext } from "vm";
 import { TodoController } from "../controllers/TodoController.js";
 // import { AuthController } from "../controllers/AuthController";
-// import { Todo } from '../models/Todo';
+// import { Todo } from "../models/Todo";
 
 export class TodoRoutes {
     // authController= new AuthController();

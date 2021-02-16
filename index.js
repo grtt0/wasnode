@@ -1,5 +1,5 @@
 // import server class module
-import Server from "./src/server.js";
+import { Server } from "./src/server.js";
 
 // instantiate new server object
 const server = new Server();

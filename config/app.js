@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 export const serverPort = process.env.PORT || 5000; // 5000 is the default value in case if the env variable has not been set
 export const mongoUri = process.env.MONGODB_URI || '';

@@ -9,7 +9,7 @@ import { TodoRoutes } from "./routes/TodoRoutes.js";
 // import mongoose, { mongo } from "mongoose";
 // import { UserRoutes } from "./routes/user.routes";
 
-class Server {
+export class Server {
   //   public app: express.Application;
   constructor() {
     this.app = express();
@@ -84,4 +84,4 @@ class Server {
   }
 }
 
-export default Server;
+// export default Server;
